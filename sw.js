@@ -1,5 +1,5 @@
 // 자동 생성 파일 (build.py). 모든 파일을 기기에 저장해 오프라인으로 동작.
-const CACHE = 'rbq-0ccc517c5f';
+const CACHE = 'rbq-969bd4be49';
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
